@@ -1,0 +1,22 @@
+{
+  "name" : "mySU",
+  "description" : "mySU",
+  "browser_action": {
+    "default_icon": "images/mysu.png",
+    "default_popup": "html/mysu.html",
+    "default_title": "Select page to navigate to..."
+  },
+  "permissions": 
+    [
+    "tabs"
+    ],
+  "background": {
+    "scripts": ["js/mysu.js"]
+  },
+  "icons": {
+    "128": "images/mysu.png"
+  },
+  "version": "1.0",
+  "minimum_chrome_version": "9",
+  "manifest_version": 2
+}

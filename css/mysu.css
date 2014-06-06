@@ -1,0 +1,16 @@
+body {
+  font-family:Arial;
+  background:#f1f1f1;
+  width:150px;
+  margin:5px !important;
+}
+a {
+  text-decoration:none;
+  color:#434343;
+}
+a:hover {
+  color:red;
+}
+div.url:hover {
+  background:#f3f1f1;
+}
