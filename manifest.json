@@ -6,10 +6,13 @@
     "default_popup": "html/mysu.html",
     "default_title": "Select page to navigate to..."
   },
-  "permissions": 
-    [
-    "tabs"
-    ],
+  "permissions": [ 
+    "tabs",
+    "contextMenus",
+    "storage",
+    "http://mysu.sabanciuniv.edu/*",
+    "http://*.sabanciuniv.edu/*"
+  ],
   "background": {
     "scripts": ["js/mysu.js"]
   },
